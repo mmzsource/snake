@@ -9,11 +9,18 @@
 ;; --------------------------------------------------------
 
 ;; constants
+
+
 (def field-width  50) ; grid units
+
 (def field-height 30) ; grid units
+
 (def point-size   15) ; number of pixels of one grid square
+
 (def turn-millis 100) ; snake moves every turn-millis msecs
+
 (def win-length   10) ; length of snake to win the game
+
 (def directions       ; direction in terms of grid units
   {KeyEvent/VK_LEFT  [-1  0]
    KeyEvent/VK_RIGHT [ 1  0]
@@ -180,3 +187,4 @@
 (defn -main
   [& args]
   (game))
+
