@@ -1,36 +1,23 @@
 # snake
 
-FIXME: description
+Based on this snake game implementation: https://www.youtube.com/watch?v=-XzSGPJRBsw 
+
+Forced myself to use emacs while copying this game.
+
+## Prerequisites
+
+- Java installed
+- Leiningen installed
+- Git installed
 
 ## Installation
 
-Download from http://example.com/FIXME.
+- `git clone <this repo>`
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar snake-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+- `lein run`
 
 ## License
 
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Use the code as you wish at your own risk. It is not copyrighted.
